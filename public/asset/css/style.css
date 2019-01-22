@@ -122,6 +122,66 @@ footer h6 {
   width: auto;
   vertical-align: bottom; }
 
+.tableLive .otherLink a {
+  margin-right: 15px;
+  display: inline-block; }
+.tableLive .otherLink a:hover {
+  text-decoration: none; }
+.tableLive .otherLink img {
+  width: auto;
+  height: 45px; }
+.tableLive thead {
+  background: linear-gradient(to bottom, #02252b 0%, #003c8c 100%); }
+.tableLive th {
+  color: #fff;
+  border: 1px solid #003c8c; }
+.tableLive td {
+  font-size: 0.9em;
+  border: 1px solid #003c8c; }
+.tableLive tr {
+  border-left: 1px solid #003c8c;
+  border-right: 1px solid #003c8c;
+  border-bottom: 1px solid #003c8c; }
+.tableLive th, .tableLive td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  min-width: 100px;
+  width: auto; }
+.tableLive table {
+  margin: 0; }
+  .tableLive table img {
+    height: 20px;
+    width: auto;
+    margin: 0 5px; }
+  .tableLive table span {
+    color: #000;
+    font-weight: 600; }
+  .tableLive table a {
+    font-size: 0.9em;
+    color: #fff;
+    background: linear-gradient(to bottom, #02252b 0%, #003c8c 100%);
+    display: inline-block;
+    padding: 2px 5px;
+    width: 100%;
+    border-radius: 4px; }
+    .tableLive table a:hover {
+      color: #fcfc2d;
+      text-decoration: none; }
+.tableLive .seeAll {
+  background-color: #000;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  color: #fff;
+  text-align: center; }
+  .tableLive .seeAll:hover {
+    text-decoration: none;
+    background-color: #003479; }
+.tableLive .team {
+  min-width: 300px; }
+
 /* ===================== Pages ===================== */
 #home .banner {
   background: url(/asset/img/home/bg-banner.jpg) no-repeat center center;
@@ -177,65 +237,6 @@ footer h6 {
       font-weight: 600;
       color: #000;
       margin-right: 10px; }
-#home .tableLive .otherLink a {
-  margin-right: 15px;
-  display: inline-block; }
-#home .tableLive .otherLink a:hover {
-  text-decoration: none; }
-#home .tableLive .otherLink img {
-  width: auto;
-  height: 45px; }
-#home .tableLive thead {
-  background: linear-gradient(to bottom, #02252b 0%, #003c8c 100%); }
-#home .tableLive th {
-  color: #fff;
-  border: 1px solid #003c8c; }
-#home .tableLive td {
-  font-size: 0.9em;
-  border: 1px solid #003c8c; }
-#home .tableLive tr {
-  border-left: 1px solid #003c8c;
-  border-right: 1px solid #003c8c;
-  border-bottom: 1px solid #003c8c; }
-#home .tableLive th, #home .tableLive td {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-weight: 400;
-  min-width: 100px;
-  width: auto; }
-#home .tableLive table {
-  margin: 0; }
-  #home .tableLive table img {
-    height: 20px;
-    width: auto;
-    margin: 0 5px; }
-  #home .tableLive table span {
-    color: #000;
-    font-weight: 600; }
-  #home .tableLive table a {
-    font-size: 0.9em;
-    color: #fff;
-    background: linear-gradient(to bottom, #02252b 0%, #003c8c 100%);
-    display: inline-block;
-    padding: 2px 5px;
-    width: 100%;
-    border-radius: 4px; }
-    #home .tableLive table a:hover {
-      color: #fcfc2d;
-      text-decoration: none; }
-#home .tableLive .seeAll {
-  background-color: #000;
-  display: block;
-  width: 100%;
-  padding: 10px;
-  font-size: 1em;
-  color: #fff;
-  text-align: center; }
-  #home .tableLive .seeAll:hover {
-    text-decoration: none;
-    background-color: #003479; }
-#home .tableLive .team {
-  min-width: 300px; }
 #home .article .tempArticle {
   margin-bottom: 15px; }
   #home .article .tempArticle a {
@@ -273,7 +274,7 @@ footer h6 {
 #live .banner {
   background: url(/asset/img/home/bg-banner.jpg) no-repeat center center;
   background-size: cover;
-  padding: 20px 0 50px 0; }
+  padding: 20px 0 20px 0; }
   #live .banner h1 {
     border-bottom: 1px dashed #888;
     padding-bottom: 10px;
@@ -316,7 +317,7 @@ footer h6 {
     border-radius: 5px;
     border: 1px solid #05469e; }
   #live .banner .hilight {
-    color: yellow; }
+    color: #17a2b8; }
   #live .banner .teamList a {
     color: #fff;
     font-size: 0.9em;

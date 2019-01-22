@@ -55,6 +55,30 @@ footer {
     .icon-live { height: 30px; width: auto;  vertical-align: bottom; }
 }
 
+.tableLive {
+    .otherLink {
+        a { margin-right: 15px; display: inline-block; }
+        a:hover { text-decoration: none; }
+        img { width: auto; height: 45px; }
+    }
+    thead { background: linear-gradient(to bottom, rgba(2,37,43,1) 0%, rgba(0,60,140,1) 100%); }
+    th { color: #fff; border: 1px solid #003c8c; }
+    td { font-size: 0.9em; border: 1px solid #003c8c; }
+    tr { border-left: 1px solid #003c8c; border-right: 1px solid #003c8c; border-bottom: 1px solid #003c8c; }
+    th,td { padding-top: 5px; padding-bottom: 5px; font-weight: 400; min-width: 100px; width: auto; }
+    table { margin: 0;
+        img { height: 20px; width: auto; margin: 0 5px; }
+        span { color: #000; font-weight: 600; }
+        a { font-size: 0.9em; color: #fff; background: linear-gradient(to bottom, rgba(2,37,43,1) 0%, rgba(0,60,140,1) 100%); display: inline-block; padding: 2px 5px; width: 100%; border-radius: 4px;
+            &:hover { color: rgb(252, 252, 45); text-decoration: none; }
+        }
+    }
+    .seeAll { background-color: #000; display: block; width: 100%; padding: 10px; font-size: 1em; color: #fff; text-align: center;
+        &:hover { text-decoration: none; background-color: #003479; }
+    }
+    .team { min-width: 300px; }
+}
+
 /* ===================== Pages ===================== */
 #home {
     .banner { background: url(/asset/img/home/bg-banner.jpg) no-repeat center center; background-size: cover; padding: 20px 0 50px 0; }
@@ -78,29 +102,6 @@ footer {
             }
         }
     }
-    .tableLive {
-        .otherLink {
-            a { margin-right: 15px; display: inline-block; }
-            a:hover { text-decoration: none; }
-            img { width: auto; height: 45px; }
-        }
-        thead { background: linear-gradient(to bottom, rgba(2,37,43,1) 0%, rgba(0,60,140,1) 100%); }
-        th { color: #fff; border: 1px solid #003c8c; }
-        td { font-size: 0.9em; border: 1px solid #003c8c; }
-        tr { border-left: 1px solid #003c8c; border-right: 1px solid #003c8c; border-bottom: 1px solid #003c8c; }
-        th,td { padding-top: 5px; padding-bottom: 5px; font-weight: 400; min-width: 100px; width: auto; }
-        table { margin: 0;
-            img { height: 20px; width: auto; margin: 0 5px; }
-            span { color: #000; font-weight: 600; }
-            a { font-size: 0.9em; color: #fff; background: linear-gradient(to bottom, rgba(2,37,43,1) 0%, rgba(0,60,140,1) 100%); display: inline-block; padding: 2px 5px; width: 100%; border-radius: 4px;
-                &:hover { color: rgb(252, 252, 45); text-decoration: none; }
-            }
-        }
-        .seeAll { background-color: #000; display: block; width: 100%; padding: 10px; font-size: 1em; color: #fff; text-align: center;
-            &:hover { text-decoration: none; background-color: #003479; }
-        }
-        .team { min-width: 300px; }
-    }
     .article {
         .tempArticle { margin-bottom: 15px;
             a { color: #7b7b7b; line-height: 1.2em; }
@@ -118,14 +119,14 @@ footer {
 }
 
 #live {
-    .banner { background: url(/asset/img/home/bg-banner.jpg) no-repeat center center; background-size: cover; padding: 20px 0 50px 0;
+    .banner { background: url(/asset/img/home/bg-banner.jpg) no-repeat center center; background-size: cover; padding: 20px 0 20px 0;
         h1 { border-bottom: 1px dashed #888; padding-bottom: 10px; background: -webkit-linear-gradient(top, #efd100 0, #e2a233 38%, #f0c328 60%, #fff1a3 86%, #ffe13e 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1.5em; font-weight: 600; margin-bottom: 0; }
         h2 { color: #fff; font-size: 1.1em; border-bottom: 1px dashed #888; padding: 5px 0 15px 0; margin-bottom: 0; }
         h5 { background: -webkit-linear-gradient(top, #efd100 0, #e2a233 38%, #f0c328 60%, #fff1a3 86%, #ffe13e 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1.3em; font-weight: 600; }
         p { color: #fff; font-weight: 300; font-size: 0.9em; line-height: 1.3em; margin: 0; padding: 15px 0; }
         h6 { color: #888; border-top: 1px dashed #888; padding-top: 10px; font-size: 0.8em; line-height: 1.5em; text-align: center; margin-top: 25px; }
         .side { background-color: #002352db; padding: 10px; border-radius: 5px; border: 1px solid #05469e; }
-        .hilight { color: yellow; }
+        .hilight { color: #17a2b8; }
         .teamList {
             a { color: #fff; font-size: 0.9em; padding: 10px 5px; border-bottom: 1px dashed #888; display: block;
                 &:hover { text-decoration: none; color: red; }

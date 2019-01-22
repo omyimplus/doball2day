@@ -1,7 +1,7 @@
 <div class='beforeFooter py-3'>
     <div class='container'>
         <div class='row'>
-            <div class=' col-md-3 d-none d-md-block'>
+            <div class='col-md-3 d-none d-md-block'>
                 <h1>ช่องทางเว็บไซต์</h1>
                 <ul class='list-unstyled'>
                     <li>- <a href="/">หน้าแรก</a></li>
@@ -16,10 +16,10 @@
             <div class='col col-md-9 col-lg-6'>
                 <h1>เกี่ยวกับ <span class='colorYellow'>DOBALL2DAY.COM</span></h1>
                 <div class='row'>
-                    <div class='col-4'>
+                    <div class='col-sm-4'>
                         <img src="asset/img/logo-doball2day-light.png" alt="logo Doball2day" class='img-fluid'>
                     </div>
-                    <div class='col-8 mt-2'>
+                    <div class='col-sm-8 mt-2'>
                         <p class='m-0'>	วิวชนะเลิศสติกเกอร์แป๋ว ซาฟารีอุปนายกอิสรชน ฟอยล์ ฮากกาแดนเซอร์แอ๊บแบ๊วคลับว่ะกุนซือไฮไลต์คอนแทค เซฟตี้ซาร์ดีนเวิลด์อุปนา</p>
                     </div>
                     <div class='col-12 mt-2'>
