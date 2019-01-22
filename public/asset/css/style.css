@@ -46,14 +46,12 @@ footer p {
 footer .beforeFooter {
   background-color: #003c8c;
   color: #fff; }
-footer .socialLink {
-  text-align: right; }
-  footer .socialLink span {
-    display: inline-block;
-    margin-left: 10px; }
-  footer .socialLink img {
-    height: 35px;
-    width: auto; }
+footer .socialLink span {
+  display: inline-block;
+  margin-left: 10px; }
+footer .socialLink img {
+  height: 35px;
+  width: auto; }
 footer .credit {
   background-color: #002557;
   padding: 15px 0; }
@@ -66,6 +64,9 @@ footer h6 {
 /* ===================== Classes Main ===================== */
 .colorRedDark {
   color: #850000 !important; }
+
+.colorBlue {
+  color: #8cffff; }
 
 .colorYellow {
   color: #f5f538; }
@@ -101,30 +102,31 @@ footer h6 {
     right: 0;
     width: 100%; }
 
+.link-steam a {
+  background-color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #000;
+  padding: 5px 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8em; }
+  .link-steam a.active {
+    background-color: #bab9b9;
+    box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.75); }
+  .link-steam a:hover {
+    text-decoration: none;
+    background-color: #bab9b9; }
+.link-steam .icon-live {
+  height: 30px;
+  width: auto;
+  vertical-align: bottom; }
+
 /* ===================== Pages ===================== */
 #home .banner {
   background: url(/asset/img/home/bg-banner.jpg) no-repeat center center;
   background-size: cover;
   padding: 20px 0 50px 0; }
-  #home .banner .link-steam a {
-    background-color: #fff;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    color: #000;
-    padding: 5px 25px;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 0.8em; }
-    #home .banner .link-steam a.active {
-      background-color: #bab9b9;
-      box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.75); }
-    #home .banner .link-steam a:hover {
-      text-decoration: none;
-      background-color: #bab9b9; }
-  #home .banner .link-steam .icon-live {
-    height: 30px;
-    width: auto;
-    vertical-align: bottom; }
 #home .logoLeague {
   text-align: center;
   margin-top: -35px; }
@@ -145,23 +147,36 @@ footer h6 {
     #home .review .tempVideoReview section img {
       height: 50px;
       width: auto; }
-#home .review ul {
-  padding: 17px 0 0 15px; }
-  #home .review ul li {
-    font-size: 0.9em;
-    border-bottom: 1px dashed #003c8c;
-    padding-bottom: 7px;
-    margin-bottom: 13px;
+#home .review .tempDetail {
+  border-bottom: 1px dashed #7b7b7b;
+  padding-bottom: 5px;
+  margin-bottom: 5px; }
+  #home .review .tempDetail > div {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 5px; }
+  #home .review .tempDetail > section {
+    display: inline-block;
+    width: 65%;
     overflow: hidden;
-    height: 45px; }
-    #home .review ul li a {
-      color: #7b7b7b; }
-      #home .review ul li a:hover {
-        color: #003c8c; }
-    #home .review ul li span {
-      color: #000;
+    height: 43px; }
+  #home .review .tempDetail figure {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000;
+    margin: 0; }
+    #home .review .tempDetail figure img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  #home .review .tempDetail a {
+    font-size: 0.9em;
+    color: #7b7b7b; }
+    #home .review .tempDetail a span {
       font-weight: 600;
-      margin-right: 5px; }
+      color: #000;
+      margin-right: 10px; }
 #home .tableLive .otherLink a {
   margin-right: 15px;
   display: inline-block; }
@@ -185,7 +200,9 @@ footer h6 {
 #home .tableLive th, #home .tableLive td {
   padding-top: 5px;
   padding-bottom: 5px;
-  font-weight: 400; }
+  font-weight: 400;
+  min-width: 100px;
+  width: auto; }
 #home .tableLive table {
   margin: 0; }
   #home .tableLive table img {
@@ -217,6 +234,8 @@ footer h6 {
   #home .tableLive .seeAll:hover {
     text-decoration: none;
     background-color: #003479; }
+#home .tableLive .team {
+  min-width: 300px; }
 #home .article .tempArticle {
   margin-bottom: 15px; }
   #home .article .tempArticle a {
@@ -251,4 +270,99 @@ footer h6 {
     overflow: hidden;
     height: 57px; }
 
+#live .banner {
+  background: url(/asset/img/home/bg-banner.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 20px 0 50px 0; }
+  #live .banner h1 {
+    border-bottom: 1px dashed #888;
+    padding-bottom: 10px;
+    background: -webkit-linear-gradient(top, #efd100 0, #e2a233 38%, #f0c328 60%, #fff1a3 86%, #ffe13e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 0; }
+  #live .banner h2 {
+    color: #fff;
+    font-size: 1.1em;
+    border-bottom: 1px dashed #888;
+    padding: 5px 0 15px 0;
+    margin-bottom: 0; }
+  #live .banner h5 {
+    background: -webkit-linear-gradient(top, #efd100 0, #e2a233 38%, #f0c328 60%, #fff1a3 86%, #ffe13e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.3em;
+    font-weight: 600; }
+  #live .banner p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 15px 0; }
+  #live .banner h6 {
+    color: #888;
+    border-top: 1px dashed #888;
+    padding-top: 10px;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 25px; }
+  #live .banner .side {
+    background-color: #002352db;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #05469e; }
+  #live .banner .hilight {
+    color: yellow; }
+  #live .banner .teamList a {
+    color: #fff;
+    font-size: 0.9em;
+    padding: 10px 5px;
+    border-bottom: 1px dashed #888;
+    display: block; }
+    #live .banner .teamList a:hover {
+      text-decoration: none;
+      color: red; }
+
 /* ===================== Responsive ===================== */
+@media (max-width: 767px) {
+  .link-steam {
+    text-align: center;
+    margin-bottom: -5px; }
+    .link-steam a {
+      padding: 5px 10px;
+      width: 30%;
+      display: inline-block;
+      text-align: center; }
+
+  #home .review .tempDetail > div {
+    width: 25%;
+    margin-right: 5px; }
+  #home .review .tempDetail > section {
+    width: 70%; }
+  #home .review .tempDetail figure {
+    height: 60px; } }
+@media (max-width: 991px) {
+  header .nav-main .navTemp li:last-child a {
+    border-right: 0; }
+  header .nav-main .navTemp a {
+    border-left: 0;
+    border-top: 1px solid #2e6dc1; }
+  header .nav-main .navTemp .navbar {
+    display: block;
+    width: 100%; }
+
+  footer .socialLink span {
+    margin-left: 0;
+    margin-right: 10px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #home .review .tempDetail > div {
+    width: 20%;
+    margin-right: 10px; }
+  #home .review .tempDetail > section {
+    width: 75%; }
+  #home .review .tempDetail figure {
+    height: 60px; } }

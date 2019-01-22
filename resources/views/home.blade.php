@@ -5,9 +5,9 @@
     <div class='banner'>
         <div class='container'>
             <div class='row justify-content-center'>
-                <div class='col-9'>
+                <div class='col-lg-9 px-0 px-md-3'>
                     <div class='link-steam'>
-                        <img src="asset/img/home/icon-live.png" alt="" class='d-inline-block icon-live'>
+                        <img src="asset/img/home/icon-live.png" alt="" class='d-none d-md-inline-block icon-live'>
                         <a href="#" class='active'>steam 1</a>
                         <a href="#">steam 2</a>
                         <a href="#">steam 3</a>
@@ -46,18 +46,18 @@
     </div>
     <div class='bannerLayout container my-3'>
         <div class='row'>
-            <div class='col-8'>
+            <div class='col-md-8 pr-md-0 pr-lg-3'>
                 <a href="#">
-                    <img src="asset/img/banner/banner-movie.jpg" alt="" class='img-fluid mt-3 w-100'>
+                    <img src="asset/img/banner/banner-movie.jpg" alt="" class='img-fluid mt-md-2 mt-lg-3 w-100'>
                 </a>
                 <a href="#">
-                    <img src="asset/img/banner/banner-baccarat.jpg" alt="" class='img-fluid mt-3 w-100'>
+                    <img src="asset/img/banner/banner-baccarat.jpg" alt="" class='img-fluid mt-2 mt-md-3 w-100'>
                 </a>
                 <a href="#">
-                    <img src="asset/img/banner/banner-tededstep.jpg" alt="" class='img-fluid mt-3 w-100'>
+                    <img src="asset/img/banner/banner-tededstep.jpg" alt="" class='img-fluid mt-2 mt-md-3 w-100'>
                 </a>
             </div>
-            <div class='col-4'>
+            <div class='col-md-4 mt-3 mt-md-0'>
                 <a href="#">
                     <img src="asset/img/banner/banner-mm88sport-height.jpg" alt="" class='img-fluid w-100'>
                 </a>
@@ -66,7 +66,7 @@
     </div>
     <div class='review container mb-3'>
         <div class='row'>
-            <div class='col-7'>
+            <div class='col-lg-7'>
                 <div class='title'>
                     <span><img src="asset/img/icon/icon-ball.png" alt="icon Ball"></span>
                     <span>วิเคราะห์บอลวันนี้</span>
@@ -78,31 +78,61 @@
                     </section>
                 </div>
             </div>
-            <div class='col-5'>
-                <div class='title'>
+            <div class='mt-3 mt-lg-0 col-lg-5'>
+                <div class='title mb-2'>
                     <span><img src="asset/img/icon/icon-ball.png" alt="icon Ball"></span>
                     <span>วิเคราะห์บอลวันนี้</span>
                 </div>
-                <ul class='list-unstyled'>
-                    <li>
+                <section class='tempDetail'>
+                    <div>
+                        <figure>
+                            <img src="asset/img/home/lorem-saint.jpg" alt="Saint Ball Doball2day">
+                        </figure>
+                    </div>
+                    <section>
                         <a href="#">- <span>แมนฯ ยูไนเต็ด vs ลิเวอร์พูล</span>การพบกันครั้งนี้เซียนให้ทาง Manu ได้เปรียบเพราะเป็นเจ้าบ้าน</a>
-                    </li>
-                    <li>
+                    </section>
+                </section>
+                <section class='tempDetail'>
+                    <div>
+                        <figure>
+                            <img src="asset/img/home/lorem-saint.jpg" alt="Saint Ball Doball2day">
+                        </figure>
+                    </div>
+                    <section>
                         <a href="#">- <span>แมนฯ ยูไนเต็ด vs ลิเวอร์พูล</span>การพบกันครั้งนี้เซียนให้ทาง Manu ได้เปรียบเพราะเป็นเจ้าบ้าน</a>
-                    </li>
-                    <li>
+                    </section>
+                </section>
+                <section class='tempDetail'>
+                    <div>
+                        <figure>
+                            <img src="asset/img/home/lorem-saint.jpg" alt="Saint Ball Doball2day">
+                        </figure>
+                    </div>
+                    <section>
                         <a href="#">- <span>แมนฯ ยูไนเต็ด vs ลิเวอร์พูล</span>การพบกันครั้งนี้เซียนให้ทาง Manu ได้เปรียบเพราะเป็นเจ้าบ้าน</a>
-                    </li>
-                    <li>
+                    </section>
+                </section>
+                <section class='tempDetail'>
+                    <div>
+                        <figure>
+                            <img src="asset/img/home/lorem-saint.jpg" alt="Saint Ball Doball2day">
+                        </figure>
+                    </div>
+                    <section>
                         <a href="#">- <span>แมนฯ ยูไนเต็ด vs ลิเวอร์พูล</span>การพบกันครั้งนี้เซียนให้ทาง Manu ได้เปรียบเพราะเป็นเจ้าบ้าน</a>
-                    </li>
-                    <li>
+                    </section>
+                </section>
+                <section class='tempDetail'>
+                    <div>
+                        <figure>
+                            <img src="asset/img/home/lorem-saint.jpg" alt="Saint Ball Doball2day">
+                        </figure>
+                    </div>
+                    <section>
                         <a href="#">- <span>แมนฯ ยูไนเต็ด vs ลิเวอร์พูล</span>การพบกันครั้งนี้เซียนให้ทาง Manu ได้เปรียบเพราะเป็นเจ้าบ้าน</a>
-                    </li>
-                    <li>
-                        <a href="#">- <span>แมนฯ ยูไนเต็ด vs ลิเวอร์พูล</span>การพบกันครั้งนี้เซียนให้ทาง Manu ได้เปรียบเพราะเป็นเจ้าบ้าน</a>
-                    </li>
-                </ul>
+                    </section>
+                </section>
             </div>
         </div>
     </div>
@@ -115,145 +145,147 @@
                 </div>
                 <h2 class='subTitle'>ช่องทางการรับชมอื่นๆ</h2>
                 <div class='otherLink mb-4'>
-                    <a href="#">
+                    <a href="https://www.bugaboo.tv/sport" target="_blank" class='mb-2'>
                         <img src="asset/img/icon/bagaboo.png" alt="icon other TV">
                     </a>
-                    <a href="#">
+                    <a href="http://www.ch3thailand.com/%E0%B8%94%E0%B8%B9%E0%B8%97%E0%B8%B5%E0%B8%A7%E0%B8%B5%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C" target="_blank" class='mb-2'>
                         <img src="asset/img/icon/tv3.png" alt="icon other TV">
                     </a>
-                    <a href="#">
+                    <a href="http://app.tv5.co.th/" target="_blank" class='mb-2'>
                         <img src="asset/img/icon/tv5.png" alt="icon other TV">
                     </a>
-                    <a href="#">
+                    <a href="http://www.ch7.com/live.html" target="_blank" class='mb-2'>
                         <img src="asset/img/icon/tv7.png" alt="icon other TV">
                     </a>
-                    <a href="#">
+                    <a href="https://tv.mcot.net/mcothd" target="_blank" class='mb-2'>
                         <img src="asset/img/icon/tv9.png" alt="icon other TV">
                     </a>
-                    <a href="#">
+                    <a href="http://www.amarintv.com/" target="_blank" class='mb-2'>
                         <img src="asset/img/icon/amarin.png" alt="icon other TV">
                     </a>
-                    <a href="#">
+                    <a href="http://true4u.truelife.com/" target="_blank" class='mb-2'>
                         <img src="asset/img/icon/true4u.png" alt="icon other TV">
                     </a>
                 </div>
-                <table class="table text-center">
-                    <thead>
-                        <tr>
-                            <th scope="col">วันที่</th>
-                            <th scope="col">เวลา</th>
-                            <th scope="col">คู่การแข่งขัน</th>
-                            <th scope="col">ลีก</th>
-                            <th scope="col">ช่องทาง</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr><tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class='colorRedDark'>19/2/2562</span></th>
-                            <td>03.00</td>
-                            <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
-                            <td><span class='colorRedDark'>อังกฤษ</span></td>
-                            <td><a href="#">รับชม</a></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class='table-responsive'>
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">วันที่</th>
+                                <th scope="col">เวลา</th>
+                                <th class='team' >คู่การแข่งขัน</th>
+                                <th scope="col">ลีก</th>
+                                <th scope="col">ช่องทาง</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr><tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class='colorRedDark'>19/2/2562</span></th>
+                                <td>03.00</td>
+                                <td><span>แมนฯ ยูไนเต็ด</span> <img src="asset/img/icon/manu-flag.png" alt="Flag Team"> <span class='colorRedDark'>VS</span> <img src="asset/img/icon/liverpool-flag.png" alt="Flag Team"> <span>ลิเวอร์พูล</span></td>
+                                <td><span class='colorRedDark'>อังกฤษ</span></td>
+                                <td><a href="#">รับชม</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
                 <a href="#" class='seeAll'>ดูการถ่ายทอดทั้งหมด</a>
             </div>
         </div>
@@ -268,7 +300,7 @@
             </div>
         </div>
         <div class='row'>
-            <div class='col-3 tempArticle'>
+            <div class='col-sm-6 col-md-3 tempArticle'>
                 <a href="#">
                     <figure>
                         <img src="asset/img/article/article_01.jpg" alt="article Doball2day">
@@ -279,7 +311,7 @@
                     </section>
                 </a>
             </div>
-            <div class='col-3 tempArticle'>
+            <div class='col-sm-6 col-md-3 tempArticle'>
                 <a href="#">
                     <figure>
                         <img src="asset/img/article/article_02.jpg" alt="article Doball2day">
@@ -290,7 +322,7 @@
                     </section>
                 </a>
             </div>
-            <div class='col-3 tempArticle'>
+            <div class='col-sm-6 col-md-3 tempArticle'>
                 <a href="#">
                     <figure>
                         <img src="asset/img/article/article_03.jpg" alt="article Doball2day">
@@ -301,7 +333,7 @@
                     </section>
                 </a>
             </div>
-            <div class='col-3 tempArticle'>
+            <div class='col-sm-6 col-md-3 tempArticle'>
                 <a href="#">
                     <figure>
                         <img src="asset/img/article/article_04.jpg" alt="article Doball2day">
@@ -312,7 +344,7 @@
                     </section>
                 </a>
             </div>
-            <div class='col-3 tempArticle'>
+            <div class='col-sm-6 col-md-3 tempArticle'>
                 <a href="#">
                     <figure>
                         <img src="asset/img/article/article_01.jpg" alt="article Doball2day">
@@ -323,7 +355,7 @@
                     </section>
                 </a>
             </div>
-            <div class='col-3 tempArticle'>
+            <div class='col-sm-6 col-md-3 tempArticle'>
                 <a href="#">
                     <figure>
                         <img src="asset/img/article/article_02.jpg" alt="article Doball2day">
@@ -334,7 +366,7 @@
                     </section>
                 </a>
             </div>
-            <div class='col-3 tempArticle'>
+            <div class='col-sm-6 col-md-3 tempArticle'>
                 <a href="#">
                     <figure>
                         <img src="asset/img/article/article_03.jpg" alt="article Doball2day">
@@ -345,7 +377,7 @@
                     </section>
                 </a>
             </div>
-            <div class='col-3 tempArticle'>
+            <div class='col-sm-6 col-md-3 tempArticle'>
                 <a href="#">
                     <figure>
                         <img src="asset/img/article/article_04.jpg" alt="article Doball2day">

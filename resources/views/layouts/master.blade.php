@@ -12,6 +12,30 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <script src="/asset/js/script.js"></script>
         <title>test</title>
+        <style>
+            /* width */
+            ::-webkit-scrollbar {
+            width: 12px;
+            height: 10px;
+            }
+
+            /* Track */
+            ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey; 
+            border-radius: 5px;
+            }
+            
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+            background: linear-gradient(to bottom, rgba(2,37,43,1) 0%, rgba(0,60,140,1) 100%);
+            border-radius: 5px;
+            }
+
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(to bottom, rgba(2,37,43,1) 0%, rgba(0,60,140,1) 100%);
+            }
+        </style>
     </head>
     <body>
         <header>

@@ -1,7 +1,7 @@
 <div class='beforeFooter py-3'>
     <div class='container'>
         <div class='row'>
-            <div class='col-3'>
+            <div class=' col-md-3 d-none d-md-block'>
                 <h1>ช่องทางเว็บไซต์</h1>
                 <ul class='list-unstyled'>
                     <li>- <a href="/">หน้าแรก</a></li>
@@ -13,7 +13,7 @@
                     <li>- <a href="/">หน้าแรก</a></li>
                 </ul>
             </div>
-            <div class='col-6'>
+            <div class='col col-md-9 col-lg-6'>
                 <h1>เกี่ยวกับ <span class='colorYellow'>DOBALL2DAY.COM</span></h1>
                 <div class='row'>
                     <div class='col-4'>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <div class='col-3 socialLink'>
+            <div class='col-lg-3 socialLink text-lg-right mt-3 mt-lg-0'>
                 <h1>Social Link</h1>
                 <div>
                     <span>

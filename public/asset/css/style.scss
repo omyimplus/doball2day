@@ -26,7 +26,7 @@ footer {
     li { margin-bottom: 5px; line-height: 1em; }
     p { font-size: 0.8em; }
     .beforeFooter { background-color: #003c8c; color: #fff; }
-    .socialLink { text-align: right;
+    .socialLink {
         span { display: inline-block; margin-left: 10px; }
         img { height: 35px; width: auto; }
     }
@@ -36,6 +36,7 @@ footer {
 
 /* ===================== Classes Main ===================== */
 .colorRedDark { color: rgb(133, 0, 0)!important; }
+.colorBlue { color: #8cffff; }
 .colorYellow { color: rgb(245, 245, 56); }
 .title { background-color: #003c8c; padding: 10px 10px 5px 10px; color: #fff;
     img { height: 20px; width: auto; vertical-align: top; margin-right: 5px; }
@@ -45,17 +46,18 @@ footer {
     .logomm88sport { position: absolute; top: 12px; right: 12px; }
     .bannerSteam { position: absolute; bottom: 0; left: 0; right: 0; width: 100%; }
 }
+
+.link-steam {
+    a { background-color: #fff; border-top-left-radius: 8px; border-top-right-radius: 8px; color: #000; padding: 5px 25px; text-transform: uppercase; font-weight: 600; font-size: 0.8em;
+        &.active { background-color: #bab9b9; box-shadow: 0px -1px 10px 0px rgba(0,0,0,0.75); }
+        &:hover { text-decoration: none; background-color: #bab9b9; }
+    }
+    .icon-live { height: 30px; width: auto;  vertical-align: bottom; }
+}
+
 /* ===================== Pages ===================== */
 #home {
-    .banner { background: url(/asset/img/home/bg-banner.jpg) no-repeat center center; background-size: cover; padding: 20px 0 50px 0;
-        .link-steam {
-            a { background-color: #fff; border-top-left-radius: 8px; border-top-right-radius: 8px; color: #000; padding: 5px 25px; text-transform: uppercase; font-weight: 600; font-size: 0.8em;
-                &.active { background-color: #bab9b9; box-shadow: 0px -1px 10px 0px rgba(0,0,0,0.75); }
-                &:hover { text-decoration: none; background-color: #bab9b9; }
-            }
-            .icon-live { height: 30px; width: auto;  vertical-align: bottom; }
-        }
-    }
+    .banner { background: url(/asset/img/home/bg-banner.jpg) no-repeat center center; background-size: cover; padding: 20px 0 50px 0; }
     .logoLeague { text-align: center; margin-top: -35px;
         span { display: inline-block; width: 16%; margin: 0 5px; }
     }
@@ -65,14 +67,16 @@ footer {
                 img { height: 50px; width: auto; }
             }
         }
-        ul { padding: 17px 0 0 15px;
-            li { font-size: 0.9em; border-bottom: 1px dashed #003c8c; padding-bottom: 7px; margin-bottom: 13px; overflow: hidden; height: 45px;
-                a { color: #7b7b7b;
-                    &:hover { color: #003c8c; }
-                }
-                span { color: #000; font-weight: 600; margin-right: 5px; }
+        .tempDetail { border-bottom: 1px dashed #7b7b7b; padding-bottom: 5px; margin-bottom: 5px;
+            > div { display: inline-block; width: 30%; vertical-align: top; margin-right: 5px; }
+            > section { display: inline-block; width: 65%; overflow: hidden; height: 43px; }
+            figure { width: 100%; height: 50px; border: 1px solid #000; margin: 0;
+                img { width: 100%; height: 100%; object-fit: cover; }
             }
-       }
+            a { font-size: 0.9em; color: #7b7b7b;
+                span { font-weight: 600; color: #000; margin-right: 10px; }
+            }
+        }
     }
     .tableLive {
         .otherLink {
@@ -84,7 +88,7 @@ footer {
         th { color: #fff; border: 1px solid #003c8c; }
         td { font-size: 0.9em; border: 1px solid #003c8c; }
         tr { border-left: 1px solid #003c8c; border-right: 1px solid #003c8c; border-bottom: 1px solid #003c8c; }
-        th,td { padding-top: 5px; padding-bottom: 5px; font-weight: 400; }
+        th,td { padding-top: 5px; padding-bottom: 5px; font-weight: 400; min-width: 100px; width: auto; }
         table { margin: 0;
             img { height: 20px; width: auto; margin: 0 5px; }
             span { color: #000; font-weight: 600; }
@@ -95,6 +99,7 @@ footer {
         .seeAll { background-color: #000; display: block; width: 100%; padding: 10px; font-size: 1em; color: #fff; text-align: center;
             &:hover { text-decoration: none; background-color: #003479; }
         }
+        .team { min-width: 300px; }
     }
     .article {
         .tempArticle { margin-bottom: 15px;
@@ -111,8 +116,66 @@ footer {
         }
     }
 }
+
+#live {
+    .banner { background: url(/asset/img/home/bg-banner.jpg) no-repeat center center; background-size: cover; padding: 20px 0 50px 0;
+        h1 { border-bottom: 1px dashed #888; padding-bottom: 10px; background: -webkit-linear-gradient(top, #efd100 0, #e2a233 38%, #f0c328 60%, #fff1a3 86%, #ffe13e 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1.5em; font-weight: 600; margin-bottom: 0; }
+        h2 { color: #fff; font-size: 1.1em; border-bottom: 1px dashed #888; padding: 5px 0 15px 0; margin-bottom: 0; }
+        h5 { background: -webkit-linear-gradient(top, #efd100 0, #e2a233 38%, #f0c328 60%, #fff1a3 86%, #ffe13e 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1.3em; font-weight: 600; }
+        p { color: #fff; font-weight: 300; font-size: 0.9em; line-height: 1.3em; margin: 0; padding: 15px 0; }
+        h6 { color: #888; border-top: 1px dashed #888; padding-top: 10px; font-size: 0.8em; line-height: 1.5em; text-align: center; margin-top: 25px; }
+        .side { background-color: #002352db; padding: 10px; border-radius: 5px; border: 1px solid #05469e; }
+        .hilight { color: yellow; }
+        .teamList {
+            a { color: #fff; font-size: 0.9em; padding: 10px 5px; border-bottom: 1px dashed #888; display: block;
+                &:hover { text-decoration: none; color: red; }
+            }
+        }
+    }
+}
 /* ===================== Responsive ===================== */
-@media (max-width: 767px) {}
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {
+    .link-steam { text-align: center; margin-bottom: -5px;
+        a { padding: 5px 10px; width: 30%; display: inline-block; text-align: center; }
+    }
+    #home {
+        .review {
+            .tempDetail {
+                > div { width: 25%; margin-right: 5px; }
+                > section {  width: 70%; }
+                figure { height: 60px; }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        .nav-main {
+            .navTemp {
+                li:last-child a { border-right: 0; }
+                a { border-left: 0; border-top: 1px solid #2e6dc1; }
+                .navbar { display: block; width: 100%; }
+            }
+        }
+    }
+    footer {
+        .socialLink {
+            span { margin-left: 0; margin-right: 10px; }
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #home {
+        .review {
+            .tempDetail {
+                > div { width: 20%; margin-right: 10px; }
+                > section {  width: 75%; }
+                figure { height: 60px; }
+            }
+        }
+    }
+}
 @media (min-width: 992px) and (max-width: 1199px) {}
 @media (min-width: 1200px) {}

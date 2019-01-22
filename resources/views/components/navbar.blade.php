@@ -1,10 +1,10 @@
 <div class='nav-main'>
     <div class='container'>
-        <div class='row py-2 justify-content-between'>
-            <div class='col-3'>
+        <div class='row py-2 justify-content-sm-between'>
+            <div class='pt-2 pt-md-0 col-3 col-sm-3 col-md-3'>
                 <img src="asset/img/logo-doball2day.png" alt="" class='img-fluid'>
             </div>
-            <div class='col-8 pt-2'>
+            <div class='d-none d-sm-block col-12 col-sm-9 col-md-8 pt-2'>
                 <img src="asset/img/banner/banner-tededlock.jpg" alt="" class='img-fluid'>
             </div>
         </div>
