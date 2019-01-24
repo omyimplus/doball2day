@@ -18,3 +18,14 @@ Route::get('/', function () {
 Route::get('/live', function () {
     return view('liveBall');
 });
+
+Route::get('/program', function () {
+    return view('program');
+});
+
+
+Route::get('/login','UIViewController@ShowLogin');
+
+Route::post('/login-process','UserController@LoginProcess');
+
+Route::get('/admin','AdminUIViewController@ShowAdmin')->name('admin-panel');
